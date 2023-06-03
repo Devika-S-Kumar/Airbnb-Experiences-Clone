@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+
+.nav{
+  display:flex;
+ min-width:620px;
+  height:70px;
+  background-color: #FFFFFF;
+  box-shadow:0px 2px 7px rgba(0,0,0,0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-log{
+  margin-top:22px;
+  margin-bottom:22px;
+  margin-left:10%;
+  height:25px;
+  width: 85px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imb{
+  background-color:#FFFFFF;
+  margin-top:26px;
+  display:flex;
+  justify-content:center;
+
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.wrt{
+  margin-left:7%;
+      margin-top:32px;
+  
+}
+.hd{
+
+
+
+height:40px;
+  font-size:45px;
+  width:620px;
+ 
+  
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.hr{
+  font-size:20px;
+  width:430px;
+  font-weight: 300;
+  line-height: 110%;
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+
+  margin-left:7%;
+  margin-top:7%;
+  
+
+  
 }
+
+.star{
+  height:14px;
+  width:14px;
+}
+
+.grey{
+  font-weight:300;
+  Size:12px;
+  line-height:13.2px;
+  color: #918E9B;
+
+}
+
+.pp{
+  font-weight: 300;
+
+   line-height: 110%;
+/* identical to box height, or 13px */
+
+color: #222222;
+}
+.bold{
+  font-weight:bold;
+}
+
+.card{
+    margin-right:32px;
+
+        
+
+
+
+}
+
+
+
+.cim{
+    width:264px;
+    height:353px;
+  border-radius:35px;
+  
+}
+
+ .st {
+           min-height:480px;
+            display:flex;
+        min-width:620px;
+           overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+.st::-webkit-scrollbar {
+  display: none;
+}
+
+
+.so{
+
+margin-left:15px;
+
+  background-color:#ffe4a8;
+  border-radius:3px;
+  padding:5px;
+  font-family: "Arial Narrow", "sans-serif";
+  font-size:11px;
+  
+  
+      
+}
+
+
+.card:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+
+
+h2{
+  margin-left:3%;
+  margin-top:6%;
+  font-size:30px;
+  color:#2c2c2c;
+}
+
+
+
+.gy{
+
+background-color:#ebebeb;
+  margin-top:200px;
+  color:#444444;
+  min-height:500px;
+  display:flex;
+  padding-top:3%;
+ list-style-type:none;
+  line-height:40px;
+   ;
+  
+  
+}
+
+.liii{
+  list-style-type:none;
+  margin:5%;
+}
+
